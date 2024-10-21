@@ -31,7 +31,11 @@ ALLOWED_HOSTS = ["192.168.1.121", "127.0.0.1"]
 
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
+    "jazzmin",   
+=======
     "jazzmin",
+>>>>>>> 28003f5fd2e9db1febc66726152e4fdbecdb0168
     "django.contrib.auth",
     "django.contrib.admin",
     "django.contrib.contenttypes",
@@ -43,6 +47,10 @@ INSTALLED_APPS = [
     "user_api",
     "rest_framework",
     "rest_framework_simplejwt.token_blacklist",
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 28003f5fd2e9db1febc66726152e4fdbecdb0168
 ]
 
 REST_FRAMEWORK = {
@@ -161,7 +169,11 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
+<<<<<<< HEAD
+TIME_ZONE = "Africa/Nairobi"
+=======
 TIME_ZONE = "UTC"
+>>>>>>> 28003f5fd2e9db1febc66726152e4fdbecdb0168
 
 USE_I18N = True
 
@@ -176,7 +188,26 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+<<<<<<< HEAD
+
+MEDIA_URL='/media/'
+MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+=======
+>>>>>>> 28003f5fd2e9db1febc66726152e4fdbecdb0168
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+<<<<<<< HEAD
+
+JAZZMIN_SETTINGS ={
+    'site_header':"KIRUGI MILK FARM",
+    'site_brand':"KIRUGI MILK FARM",
+    'site_logo':"assets/logo.png",
+    "login_logo": None,
+    "site_logo_classes": "img-circle",
+    "welcome_sign": "Welcome to the Admin Panel",
+    'copyright':"https://github.com/Mamba1099",
+}
+=======
+>>>>>>> 28003f5fd2e9db1febc66726152e4fdbecdb0168
